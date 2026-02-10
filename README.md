@@ -1,97 +1,90 @@
-# University Admissions Chatbot
+# 🍽️ Culinary Assistant  
+## Academic Project
+## 1. Introduction
 
-An AI-powered college admissions assistant that helps prospective students discover programs, track applications, receive personalized guidance, and move confidently from interest to enrollment.
+The Culinary Assistant is a simple web-based application that helps users plan meals, search recipes, estimate calories, and generate grocery lists.  
+This project is created as an academic learning project to understand basic web development and database concepts.
 
-## Project Overview
+## 2. Objectives
 
-Universities handle thousands of admissions queries daily—most repetitive, time-sensitive, and policy-heavy. This project delivers a **24/7 AI admissions assistant** that:
+- To create a recipe search system  
+- To develop a basic meal planning feature  
+- To estimate calorie intake  
+- To generate grocery lists   
 
-* Supports **100+ academic programs**
-* Answers **1,000+ student queries per day**
-* Reduces admissions counselor workload by **~60%**
-* Improves enrollment conversion by **25%**
+## 3. Problem Statement
 
-The system combines conversational AI, compressed program knowledge (ScaleDown), personalized recommendations, and CRM integration.
+People often find it difficult to decide daily meals, track calories, and manage grocery shopping.  
+This project provides a simple solution to organize meals and food planning digitally.
 
----
+## 4. Methodology
 
-## Key Features
+1. Collect sample recipe data  
+2. Store data in a database  
+3. Develop backend using Python and Flask  
+4. Design frontend using HTML and CSS  
+5. Connect frontend and backend  
 
-### 1. Program Matching Engine
+## 5. Technologies Used
 
-* Matches students to best-fit programs based on GPA, interests, budget, and goals
-* Provides admission likelihood and alternative pathways
+### Backend
+- Python  
+- Flask  
 
-### 2. Admissions Chatbot
+### Frontend
+- HTML  
+- CSS  
+- JavaScript (Basic)
 
-* Policy-safe Q&A on requirements, deadlines, and eligibility
-* Essay tips and application guidance
-* Scholarship and financial aid matching
-* 24/7 multi-channel support
+### Database
+- MySQL 
 
-### 3. Application Tracker & Checklist
+## 6. System Features
 
-* Personalized application steps per program
-* Deadline reminders and progress tracking
-* Document upload support
+### Recipe Search
+Search recipes by name or type.
 
-### 4. Scholarship Matching
+### Meal Planning
+Create meal plans for multiple days.
 
-* Matches students to merit- and need-based scholarships
-* Explains eligibility and deadlines
+### Grocery List Generator
+Automatically generates a grocery list from selected meals.
 
-### 5. Virtual Campus Tours
+### Calorie Estimation
+Displays estimated calorie values for meals.
 
-* Integrated tour links by program
-* Guided exploration based on student interests
+## 7. System Architecture
 
----
+User → Browser → Flask Server → SQLite Database → Flask Server → User
 
-## ScaleDown Technology
+## 8. Implementation
 
-ScaleDown is used to compress large university catalogs while preserving accuracy.
+### Backend
+Handles recipe data, meal planning logic, and calorie calculations.
 
-**Benefits:**
+### Frontend
+Displays recipes, meal plans, and grocery lists using simple web pages.
 
-* 75% reduction in catalog size
-* Faster responses with lower compute cost
-* Consistent answers across 100+ programs
-* Optimized for high-volume Q&A
+## 9. Results
 
-**Used for:**
+The system successfully:
+- Displays recipes  
+- Generates meal plans  
+- Creates grocery lists  
+- Shows calorie estimates  
 
-* Program requirements
-* Admissions policies
-* Prerequisites and exceptions
+## 10. Limitations
 
----
+- Nutrition values are approximate  
+- Limited number of recipes  
 
-## System Architecture
+## 11. Future Enhancements
 
-```
-Frontend (Web / Chat UI)
-        |
-        v
-Admissions Chatbot (LLM)
-        |
-        +--> ScaleDown Knowledge Base
-        |
-        +--> Recommendation Engine
-        |
-        +--> Application Tracker
-        |
-        +--> CRM Integration
-```
----
+- Add more recipes  
+- Improve nutrition accuracy  
+- Add user authentication  
+- Improve user interface  
 
-## Future Enhancements
+## 12. Conclusion
 
-* Voice-based admissions assistant
-* Predictive yield modeling
-* Multilingual admissions support
-* Alumni chatbot for career outcomes
-
-
----
-
-**Built to make admissions simpler, smarter, and student-first.**
+This project demonstrates how a simple web application can assist in meal planning and calorie tracking.  
